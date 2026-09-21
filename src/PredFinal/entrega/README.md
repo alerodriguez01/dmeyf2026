@@ -56,4 +56,6 @@ Notebook utilizada: `compare_models.ipynb`
 
 Con el experimento ganador (*Data drifting - estandarizar con bug*), se promediaron las probabilidades generadas por los modelos de las 10 semillas (ensamble), generando una única predicción combinada. Sobre esa predicción promediada se subieron nuevamente los distintos cortes a Kaggle, y se eligió como predicción final la subida con mejor resultado entre esos cortes.
 
-Notebook utilizada: `final_ensemble.ipynb`
+Se promediaron las probabilidades de las 10 semillas de cada experimento --> output: N salidas (una por cada experimento), donde cada una posee las probabilidades por cada cliente. Luego, se promediaron (ensamblaron) los N resultados --> output: 1 salida con las probabilidades por cada cliente. Por último, se subió este ensamble final a Kaggle, mismos cortes que siempre y se eligió el que mejor ganancia presentó.
+
+Notebook utilizada: `ensemble_experimentos.ipynb`
