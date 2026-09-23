@@ -58,4 +58,6 @@ Con el experimento ganador (*Data drifting - estandarizar con bug*), se promedia
 
 Se promediaron las probabilidades de las 10 semillas de cada experimento --> output: N salidas (una por cada experimento), donde cada una posee las probabilidades por cada cliente. Luego, se promediaron (ensamblaron) los N resultados --> output: 1 salida con las probabilidades por cada cliente. Por último, se subió este ensamble final a Kaggle, mismos cortes que siempre y se eligió el que mejor ganancia presentó.
 
+> Se probaron distintas combinaciones de ensambles (incluyendo modelos con variaciones solo en data drifting y modelos solo con variaciones en FE histórico). El ensamble elegido finalmente contó con diferentes variaciones de data drifting.
+
 Notebook utilizada: `ensemble_experimentos.ipynb`
